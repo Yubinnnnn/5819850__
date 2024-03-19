@@ -36,6 +36,7 @@ int main(int argc, char* argv[]) {
 
     printf("반복 함수 결과: %e\n", result_iter);
     printf("걸린 시간 : %f\n", (float)(end - start) / CLOCKS_PER_SEC);
+
     printf("재귀 함수 결과: %e\n", result_rec);
     printf("걸린 시간 : %f\n", (float)(end - start) / CLOCKS_PER_SEC);
 
